@@ -1,0 +1,9 @@
+name: Workshop
+version: '${project.version}'
+main: me.pseudo.workshop.Main
+api-version: '1.20'
+
+commands:
+  say:
+    description: Say something
+    permission: ws.command.say
